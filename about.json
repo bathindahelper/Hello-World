@@ -1,14 +1,18 @@
-.hello-world-banner {
-    height: 300px;
-    width: 100%;
-    background: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
-}
-
-.hello-world {
-    font-size: 8em;
-    color: white;
+{
+  "name": "My Theme",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null, 
+  "maximum_discourse_version": null,
+  "assets": {
+    "variable-name": "assets/my-asset.jpg"
+  },
+  "color_schemes": {
+    "My Colour Scheme": {
+      "primary": "222222",
+    }
+  }
 }
